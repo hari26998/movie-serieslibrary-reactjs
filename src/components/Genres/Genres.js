@@ -48,7 +48,7 @@ const Genres = ({
           style={{ margin: 2 }}
           label={genre.name}
           key={genre.id}
-          color="black"
+          color="primary"
           clickable
           size="small"
           onDelete={() => handleRemove(genre)}
@@ -57,6 +57,7 @@ const Genres = ({
       {genres?.map((genre) => (
         <Chip
           style={{ margin: 2 }}
+          color="black"
           label={genre.name}
           key={genre.id}
           clickable
