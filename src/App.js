@@ -21,7 +21,8 @@ function App() {
             <Route path="/search" element={<Search />} exact />
           </Routes>
         </Container>
-      <SimpleBottomNavigation /></div>
+      <SimpleBottomNavigation />
+      </div>
         
       </>
   );
